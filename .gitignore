@@ -1,0 +1,12 @@
+# IDE
+.idea/
+
+# Project artifacts
+node_modules/
+npm-debug.log
+
+# Test artifacts
+coverage/
+
+# Build artifacts
+dist/
