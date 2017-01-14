@@ -1,5 +1,8 @@
 # react-duo-web
 
+[![Build Status](https://travis-ci.org/LINKIWI/react-duo-web.svg?branch=master)](https://travis-ci.org/LINKIWI/react-duo-web)
+[![Coverage Status](https://coveralls.io/repos/github/LINKIWI/react-duo-web/badge.svg?branch=master)](https://coveralls.io/github/LINKIWI/react-duo-web?branch=master)
+
 `react-duo-web` is a React component wrapper for the the two-factor authentication UI flow provided by the [Duo Web SDK](https://duo.com/docs/duoweb).
 
 Your client-side React app need not have a `<script>` tag referencing the web SDK Javascript. Instead, simply introduce `Duo` into your existing app as you would any other component:
