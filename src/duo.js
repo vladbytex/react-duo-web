@@ -20,7 +20,7 @@ export default class Duo extends React.Component {
   componentDidMount() {
     const {host, sigRequest, submitCallback} = this.props;
 
-    duoWeb().init({
+    duoWeb.duoWeb().init({
       /* eslint-disable camelcase */
       host,
       sig_request: sigRequest,
