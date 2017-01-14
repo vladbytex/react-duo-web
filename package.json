@@ -7,8 +7,8 @@
     "build": "mkdir -p dist && webpack --config config/webpack.js",
     "lint": "eslint src lib test",
     "test": "node test | tap-spec",
-    "cover": "istanbul cover test --print detail",
-    "coveralls": "istanbul cover test --print detail && cat coverage/lcov.info | coveralls",
+    "cover": "istanbul cover -x lib/* test --print detail",
+    "coveralls": "npm run cover && cat coverage/lcov.info | coveralls",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -32,6 +32,7 @@
     "eslint-plugin-react": "^6.1.2",
     "istanbul": "^1.1.0-alpha.1",
     "jsdom": "^9.9.1",
+    "react": "^15.4.2",
     "sinon": "^1.17.6",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.0",
