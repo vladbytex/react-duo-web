@@ -17,6 +17,9 @@
   },
   "author": "Kevin Lin <developer@kevinlin.info>",
   "license": "MIT",
+  "dependencies": {
+    "object.omit": "^2.0.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-core": "^6.21.0",
